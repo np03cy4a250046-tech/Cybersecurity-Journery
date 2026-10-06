@@ -53,6 +53,8 @@ Examples:
 # Remember this concept
 
   -Whenever data is sent over the network it is divided into smaller packets those packets travel through the network independently and are combined again whenever they reach the final destination. The packets  are divided into 2 small parts they are
+
+  
   -Payload: It contains the actual size of the data
   
-  -Header: It contains the information regarding the data
+  -Header: It contains the information regarding the data Eg: Ip address
