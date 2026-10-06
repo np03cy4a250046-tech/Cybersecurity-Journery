@@ -49,3 +49,7 @@ Examples:
 - How exactly does a switch learn MAC addresses?
 - How does a router decide where to send an IP packet?
 - How does TCP establish a connection?
+
+  #Remember this concept
+
+  -Whenever data is sent over the network it is divided into smaller packets those packets travel through the network independently and are combined again whenever they reach the final destination
