@@ -2,7 +2,7 @@
 
 ## Topics
 
-- [ ] OSI Model
+- [ x] OSI Model
 - [ ] TCP/IP
 - [ ] IPv4
 - [ ] Subnetting
