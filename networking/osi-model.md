@@ -50,6 +50,9 @@ Examples:
 - How does a router decide where to send an IP packet?
 - How does TCP establish a connection?
 
-  #Remember this concept
+# Remember this concept
 
-  -Whenever data is sent over the network it is divided into smaller packets those packets travel through the network independently and are combined again whenever they reach the final destination
+  -Whenever data is sent over the network it is divided into smaller packets those packets travel through the network independently and are combined again whenever they reach the final destination. The packets  are divided into 2 small parts they are
+  -Payload: It contains the actual size of the data
+  
+  -Header: It contains the information regarding the data
