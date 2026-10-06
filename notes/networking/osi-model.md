@@ -48,8 +48,10 @@ Provides end-to-end transport.
 
 Examples:
 
-TCP
-UDP
+-TCP
+-UDP
+
+
 Questions I still have
 How exactly does a switch learn MAC addresses?
 How does a router decide where to send an IP packet?
