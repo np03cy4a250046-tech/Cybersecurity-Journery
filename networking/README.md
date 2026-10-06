@@ -4,7 +4,7 @@
 
 - [ x] OSI Model
 - [ ] TCP/IP
-- [ ] IPv4
+- [ ] IP address
 - [ ] Subnetting
 - [ ] TCP vs UDP
 - [ ] Ports
@@ -18,5 +18,5 @@
 - [ ] Firewalls
 - [ ] Wireshark
 - [ ] Nmap
-- [ ] IPv6
+      
 
