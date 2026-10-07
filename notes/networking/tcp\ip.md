@@ -11,3 +11,17 @@ TCP/IP model is a layered networking framework which tells us how computer commu
 - Provides encryption for secure communication.
 - Manages sessions to track ongoing connections.
 
+# 2.Transport layer
+- It ensures there is reliable data transmission between devices also it help in retransmission of the data if needed.
+- Breaks down large data into smaller packets and reassembles them at the destination
+- Uses protocol like TCP or UDP for efficient data communication
+- TCP is used when we need 100% of the data if some data is missed it retransmits the whole data
+- UP is used when we need faster data and some data missed is fine.
+
+
+  # 3 Internet layer
+  - This layer is all about addressing routing and packaging of the data packets so the data can reached the required destination
+  - Assigns IP addresses to identify source and destination devices.
+  -Determines the best path for data to travel across networks.
+  -Breaks large packets into smaller ones for transmission and reassembles them at the destination.
+
