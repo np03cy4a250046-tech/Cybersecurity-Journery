@@ -22,6 +22,10 @@ TCP/IP model is a layered networking framework which tells us how computer commu
   # 3 Internet layer
   - This layer is all about addressing routing and packaging of the data packets so the data can reached the required destination
   - Assigns IP addresses to identify source and destination devices.
-  -Determines the best path for data to travel across networks.
-  -Breaks large packets into smaller ones for transmission and reassembles them at the destination.
+  - Determines the best path for data to travel across networks.
+  - Breaks large packets into smaller ones for transmission and reassembles them at the destination.
+ 
+  # 4 Network Layer
+  - Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
+  - Uses hardware(MAC) addresses to identify devices within the same network segment.
 
