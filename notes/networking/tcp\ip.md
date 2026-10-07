@@ -25,7 +25,7 @@ TCP/IP model is a layered networking framework which tells us how computer commu
   - Determines the best path for data to travel across networks.
   - Breaks large packets into smaller ones for transmission and reassembles them at the destination.
  
-  # 4 Network Layer
+  # 4 Network Acess (Link layer)
   - Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
   - Uses hardware(MAC) addresses to identify devices within the same network segment.
 
