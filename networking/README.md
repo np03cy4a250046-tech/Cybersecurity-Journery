@@ -18,5 +18,7 @@
 - [ ] Firewalls
 - [ ] Wireshark
 - [ ] Nmap
+- [ ] MAC address
+- [ ] MAC address vs IP address
       
 
