@@ -3,7 +3,7 @@
 ## Topics
 
 - [ x] OSI Model
-- [ ] TCP/IP
+- [ x] TCP/IP
 - [ ] IP address
 - [ ] Subnetting
 - [ ] TCP vs UDP
