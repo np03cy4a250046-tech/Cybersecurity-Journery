@@ -16,7 +16,7 @@ TCP/IP model is a layered networking framework which tells us how computer commu
 - Breaks down large data into smaller packets and reassembles them at the destination
 - Uses protocol like TCP or UDP for efficient data communication
 - TCP is used when we need 100% of the data if some data is missed it retransmits the whole data
-- UP is used when we need faster data and some data missed is fine.
+- UDP is used when we need faster data and some data missed is fine.
 
 
   # 3 Internet layer
