@@ -11,7 +11,9 @@
 - IPv4 provides about 4.3 billion unique addresses, which have already run out globally whereas  IPv6 Provides 340 undecillion (3.4 × 10³⁸) addresses, making exhaustion practically impossible
 
 - IPv4 Relies heavily on NAT to let multiple private devices share a single public IP address due to shortages whereas, IPv6 Eliminates the need for NAT, allowing end-to-end direct connectivity
-
+  
 - therefore we can confirm that IPv6 is more reliable than IPv4 in today's world
 
+# Static vs Dynamic IP
+- static IP is a type of ip address where the IP address stays the same permanently unless updated manually whereas , Dyanamic IP address is a type of IP address where the IP address changes automatcially overtime (usually done by DHCP)
   
