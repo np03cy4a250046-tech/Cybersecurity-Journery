@@ -18,4 +18,6 @@
 - static IP is a type of ip address where the IP address stays the same permanently unless updated manually whereas , Dyanamic IP address is a type of IP address where the IP address changes automatcially overtime (usually done by DHCP)
 
 -  Dynamic IPs offer better privacy and security because your address shifts frequently, making it harder for hackers or trackers to follow you. Static IPs are easier to track
-  
+
+  # Private vs Public IP
+  - A public IP address is a globally unique identifier assigned by your Internet Service Provider to connect your network , while a private IP address is an internal identifier used by your router to recognize individual devices within your local network
