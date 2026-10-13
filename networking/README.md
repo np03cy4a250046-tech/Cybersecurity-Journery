@@ -4,7 +4,7 @@
 
 - [ x] OSI Model
 - [ x] TCP/IP
-- [ ] IP address
+- [ x] IP address
 - [ ] Subnetting
 - [ ] TCP vs UDP
 - [ ] Ports
