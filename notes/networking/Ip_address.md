@@ -24,3 +24,9 @@
 
 # Classes of IP address
 - IP address is divided into 5 classes it was an early method (1981–1993) used to assign IP addresses and divide the IPv4 address space into fixed classes. Each      IP address was categorised based on its leading bits, and the class determined its network and host portions.
+
+- IP addresses are divided into 5 classes A,B,C,D,E
+- The class of an IP address was identified by its first few bits
+- Classes A, B, and C were used for unicast communication, supporting large, medium, and small networks, respectively
+- Class D was reserved for multicast communication
+- Class E was intended for experimental and research purposes
