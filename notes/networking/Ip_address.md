@@ -30,6 +30,12 @@
 - Classes A, B, and C were used for unicast communication, supporting large, medium, and small networks, respectively
 - Class D was reserved for multicast communication
 - Class E was intended for experimental and research purposes
+ 
+- Class A IP address is used whenever there are large number of host connected to the network because it only has 8 bit network address and 24 bit Host address. A   Class A IPv4 address has 8 network prefix bits. For example, consider 44.0.0.1, where 44 is the network address, and 0.0.1 is the host address.
+
+ -Class B IP address is used for medium sized to large size of organization as it has 16 network prefix bits and 16 bit of host address. A Class B IPv4 address       has 16 network prefix bits. For example, consider 128.16.0.2, where 128.16 is the network address, and 0.2 is the host address.
+ 
+ -Class C IP address is used for small to medium size organization as it has 24 network prefix bits 8 bit of host a address. A Class C IPv4 address has 24 network   prefix bits. For instance, consider 192.168.1.100, where 192.168.1 is the network address, and 100 is the host address.  
   
 
 # Relation between IPv4 address and subnet mask 
