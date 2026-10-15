@@ -30,14 +30,16 @@
 - Classes A, B, and C were used for unicast communication, supporting large, medium, and small networks, respectively
 - Class D was reserved for multicast communication
 - Class E was intended for experimental and research purposes
--  An IP address has two parts:
-
--The network address is a series of numerical digits pointing to the network's unique identifier 
--The host address is a series of numbers indicating the host or individual device identifier on the network
+  
 
 # Relation between IPv4 address and subnet mask 
 - suppose your IP address is 192.168.1.34 and ur subnet mask is 255.255.255.0. We can see 192->255 168->255 1->255 34->0 so the octets that corelates to 255 stays the same forever but the octets the corelates to 0 change(between 0-255).
 - the the portion of IP address that doesn't change is called Network portion and the IP address that changes is called Host portion.
+- An IP address has two parts:
+
+-The network address is a series of numerical digits pointing to the network's unique identifier 
+
+-The host address is a series of numbers indicating the host or individual device identifier on the network
 
 
 
