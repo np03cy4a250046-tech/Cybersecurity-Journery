@@ -33,7 +33,7 @@
   
 
 # Relation between IPv4 address and subnet mask 
-- suppose your IP address is 192.168.1.34 and ur subnet mask is 255.255.255.0. We can see 192->255 168->255 1->255 34->0 so the octets that corelates to 255 stays the same forever but the octets the corelates to 0 change(between 0-255).
+- suppose your IP address is 192.168.1.34 and ur subnet mask is 255.255.255.0. We can see the corelation 192->255 168->255 1->255 34->0 so the octets that corelates to 255 stays the same forever but the octets the corelates to 0 change(between 0-255).
 - the the portion of IP address that doesn't change is called Network portion and the IP address that changes is called Host portion.
   
 -An IP address has two parts:
