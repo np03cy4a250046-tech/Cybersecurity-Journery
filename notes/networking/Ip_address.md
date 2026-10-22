@@ -21,6 +21,10 @@
 
   # Private vs Public IP
   - A public IP address is a globally unique identifier assigned by your Internet Service Provider to connect your network , while a private IP address is an internal identifier used by your router to recognize individual devices within your local network
+  - 10.0.0.0-10.255.255.255
+  - 172.16.0.0-172.31.0.0
+  - 192.168.0.0-192.168.255.255
+    
 
 # Classes of IP address
 - IP address is divided into 5 classes it was an early method (1981–1993) used to assign IP addresses and divide the IPv4 address space into fixed classes. Each      IP address was categorised based on its leading bits, and the class determined its network and host portions.
