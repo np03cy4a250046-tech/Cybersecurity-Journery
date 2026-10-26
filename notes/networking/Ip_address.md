@@ -62,7 +62,7 @@
 - Simplify routing and network security
 
 # Identify different special IP address
--address or range	Type     / purpose
+-address or range	Type     - purpose
 -127.0.0.1	              Loopback — your own computer
 -0.0.0.0	                Unspecified address; meaning depends on context
 -169.254.x.x	            Link-local — often assigned when DHCP fails
