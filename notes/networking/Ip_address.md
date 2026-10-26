@@ -56,3 +56,7 @@
 
 # CIDR
 - CIDR(CLASSLESS INTER DOMAIN ROUTING) is a method of IP address allocation and routing that allows more efficient use of IP address unlike traditional class based routing system.
+
+# What are the benefits of CIDR over Classing IP address
+- Reduce IP wastage
+- Simplify routing and network security
