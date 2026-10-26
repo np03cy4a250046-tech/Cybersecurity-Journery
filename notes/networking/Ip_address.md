@@ -60,3 +60,12 @@
 # What are the benefits of CIDR over Classing IP address
 - Reduce IP wastage
 - Simplify routing and network security
+
+# Identify different special IP address
+-address or range	Type     / purpose
+-127.0.0.1	              Loopback — your own computer
+-0.0.0.0	                Unspecified address; meaning depends on context
+-169.254.x.x	            Link-local — often assigned when DHCP fails
+-255.255.255.255	                   Limited broadcast
+-224.0.0.0 – 239.255.255.255	         Multicast
+-100.64.0.0 – 100.127.255.255	       Shared address space, often used by ISPs for CGNAT
