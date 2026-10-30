@@ -55,7 +55,8 @@
 -only 253 ip addresses are usable for network instead of 256 (0-255) as 192.168.1.0 and 192.168.1.255 (first octet is the network itself and last octet is broadcast network to all devices.) and last one is reserved for router.
 
 # CIDR
-- CIDR(CLASSLESS INTER DOMAIN ROUTING) is a method of IP address allocation and routing that allows more efficient use of IP address unlike traditional class based routing system.
+- CIDR(CLASSLESS INTER DOMAIN ROUTING) is a method of IP address allocation and routing that allows more efficient use of IP address unlike traditional class based routing system. For example 192.168.1.0/24 here /24 defines the bits for network portion 32 - 24 = 8 so remaining 8 bits is left  for host portion.
+- simple formula to calculate the total address = 2^host bits
 
 # What are the benefits of CIDR over Classing IP address
 - Reduce IP wastage
@@ -69,3 +70,19 @@
 - 255.255.255.255	                   -Limited broadcast
 - 224.0.0.0 – 239.255.255.255	        - Multicast
 - 100.64.0.0 – 100.127.255.255	      - Shared address space, often used by ISPs for CGNAT
+
+# CIDR and subnet masks
+ - CIDR = the addressing method and slash notation.
+ - Subnetting = dividing a larger network into smaller networks.
+ - Subnet mask = identifies which bits represent the network and which represent hosts.
+
+ - Subnet masks is the another portion of representing the networking portion of the IP address
+   # Understanding 3 subnets masks
+   -  for / 24
+   -  Binary subnet mask is 11111111.11111111.11111111.00000000 = 255.255.255.0
+  
+   - for / 25
+   - Binary subnet mask is 11111111.11111111.11111111.1 00000000 = 255.255.255.128
+  
+   - for /26
+   - Binary subnet mask is 11111111.11111111.11111111. 11 000000 = 255.255.192
