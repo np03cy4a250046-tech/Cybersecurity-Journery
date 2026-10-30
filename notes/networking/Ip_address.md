@@ -77,12 +77,22 @@
  - Subnet mask = identifies which bits represent the network and which represent hosts.
 
  - Subnet masks is the another portion of representing the networking portion of the IP address
-   # Understanding 3 subnets masks
-   -  for / 24
-   -  Binary subnet mask is 11111111.11111111.11111111.00000000 = 255.255.255.0
+# Understanding 3 subnets masks
+  -  for / 24
+  -  Binary subnet mask is 11111111.11111111.11111111.00000000 = 255.255.255.0
   
-   - for / 25
-   - Binary subnet mask is 11111111.11111111.11111111.1 00000000 = 255.255.255.128
+  - for / 25
+  - Binary subnet mask is 11111111.11111111.11111111.1 00000000 = 255.255.255.128
   
-   - for /26
-   - Binary subnet mask is 11111111.11111111.11111111. 11 000000 = 255.255.192
+  - for /26
+  - Binary subnet mask is 11111111.11111111.11111111. 11 000000 = 255.255.192
+
+  - Let's use this example: 192.188.1.0/26
+  - The subnet mask is: 255.255.255.192
+
+  - There are 64 total addresses.
+  - Address              - purpose
+    192.168.1.0          Network address
+    192.168.1.1          First usable address
+    192.168.1.62         Last usable address
+    192.168.1.63         Broadcast address
