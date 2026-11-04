@@ -99,6 +99,6 @@
 
 
 
-    - Number of subnets              \(2^{\text{borrowed bits}}\)
-    - Total addresses per subnet      \(2^{\text{host bits}}\)
-    - Usable hosts per subnet         \(2^{\text{host bits}}-2\)
+    - Number of subnets              2^borrowed bits
+    - Total addresses per subnet     2^host bits
+    - Usable hosts per subnet        2^hostbits -2
