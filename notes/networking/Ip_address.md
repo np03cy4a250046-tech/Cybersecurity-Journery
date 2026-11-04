@@ -96,3 +96,9 @@
     192.168.1.1          First usable address
     192.168.1.62         Last usable address
     192.168.1.63         Broadcast address
+
+
+
+    - Number of subnets              \(2^{\text{borrowed bits}}\)
+    - Total addresses per subnet      \(2^{\text{host bits}}\)
+    - Usable hosts per subnet         \(2^{\text{host bits}}-2\)
