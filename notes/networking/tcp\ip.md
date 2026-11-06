@@ -26,6 +26,25 @@ TCP/IP model is a layered networking framework which tells us how computer commu
   - Breaks large packets into smaller ones for transmission and reassembles them at the destination.
  
   # 4 Network Access (Link layer)
-  - Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
-  - Uses hardware(MAC) addresses to identify devices within the same network segment.
+
+
+  # TCP vs UDP protocol
+  - TCP protocol
+  - TCP protocol is connection oriented
+  - it guaranteeds delivery: retransmits lost data
+  - Ensures packets arrive in correct sequence
+  - it is slower due to checks
+  - eg HTTPS/HTTP FTP and SMTP
+ 
+  - UDP protocol
+  - UDP protocol is connectionless
+  - it doesn't guarantees delievery: dropped packets are ignored
+  - Doesn't ensures gurantee packets may arrive in out of sequence
+  - It is faster becasue it doesn't require checks
+  - eg live streaming video call and online gaming 
+  
+   
+
+
+
 
