@@ -6,7 +6,7 @@
 - [ x] TCP/IP
 - [ x] IP address
 - [ x] Subnetting
-- [ ] TCP vs UDP
+- [x ] TCP vs UDP
 - [ ] Ports
 - [ ] DNS
 - [ ] DHCP
