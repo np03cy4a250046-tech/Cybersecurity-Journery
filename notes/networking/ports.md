@@ -57,7 +57,7 @@
 
     Port Number	               Application/ Service
      20, 21	                      FTP (File Transfer Protocol)
-     22	SSH                      (Secure Shell)
+     22                              	SSH (Secure Shell)
       23	                         Telnet (Terminal Network)
       25	                         SMTP (Simple Mail Transfer Protocol)
       53	                           DNS (Domain Name System)
